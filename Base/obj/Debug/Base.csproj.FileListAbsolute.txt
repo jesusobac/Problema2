@@ -1,0 +1,14 @@
+C:\proyectos\BaseWeb\Base\bin\Debug\Base.dll.config
+C:\proyectos\BaseWeb\Base\bin\Debug\Base.dll
+C:\proyectos\BaseWeb\Base\bin\Debug\Base.pdb
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework.dll
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework.SqlServer.dll
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework6.Npgsql.dll
+C:\proyectos\BaseWeb\Base\bin\Debug\Npgsql.dll
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework.xml
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework.SqlServer.xml
+C:\proyectos\BaseWeb\Base\bin\Debug\EntityFramework6.Npgsql.xml
+C:\proyectos\BaseWeb\Base\bin\Debug\Npgsql.xml
+C:\proyectos\BaseWeb\Base\obj\Debug\Base.dll
+C:\proyectos\BaseWeb\Base\obj\Debug\Base.pdb
+C:\proyectos\BaseWeb\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache

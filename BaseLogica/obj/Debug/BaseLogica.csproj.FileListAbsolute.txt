@@ -1,0 +1,16 @@
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\BaseLogica.dll.config
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\BaseLogica.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\BaseLogica.pdb
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\Base.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework.SqlServer.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework6.Npgsql.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\Npgsql.dll
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\Base.pdb
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework.xml
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework.SqlServer.xml
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\EntityFramework6.Npgsql.xml
+C:\proyectos\BaseWeb\BaseLogica\bin\Debug\Npgsql.xml
+C:\proyectos\BaseWeb\BaseLogica\obj\Debug\BaseLogica.csprojResolveAssemblyReference.cache
+C:\proyectos\BaseWeb\BaseLogica\obj\Debug\BaseLogica.dll
+C:\proyectos\BaseWeb\BaseLogica\obj\Debug\BaseLogica.pdb
