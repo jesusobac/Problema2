@@ -111,7 +111,6 @@ namespace BaseWeb
                 else
                 {
                     Response.Write("<script>alert('" + Server.HtmlEncode("FALSE Lorem ipsum dolor sit amet") + "')</script>");
-                    res = acciones.GuardaPalabra(_polindromo);
                 }
             }
             else if (EvaluaPalabra(_polindromo.Palabra))
