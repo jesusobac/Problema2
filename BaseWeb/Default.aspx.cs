@@ -116,7 +116,6 @@ namespace BaseWeb
             else if (EvaluaPalabra(_polindromo.Palabra))
             {
                 Response.Write("<script>alert('" + Server.HtmlEncode("TRUE") + "')</script>");
-                var res = acciones.GuardaPalabra(_polindromo);
             }
             else
             {
