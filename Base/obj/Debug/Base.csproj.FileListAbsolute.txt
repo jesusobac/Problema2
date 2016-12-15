@@ -26,3 +26,17 @@ C:\Prueba\Problema2\Base\bin\Debug\Npgsql.xml
 C:\Prueba\Problema2\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache
 C:\Prueba\Problema2\Base\obj\Debug\Base.dll
 C:\Prueba\Problema2\Base\obj\Debug\Base.pdb
+C:\PruebaBNN\Problema2\Base\bin\Debug\Base.dll.config
+C:\PruebaBNN\Problema2\Base\bin\Debug\Base.dll
+C:\PruebaBNN\Problema2\Base\bin\Debug\Base.pdb
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework.dll
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework.SqlServer.dll
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework6.Npgsql.dll
+C:\PruebaBNN\Problema2\Base\bin\Debug\Npgsql.dll
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework.xml
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework.SqlServer.xml
+C:\PruebaBNN\Problema2\Base\bin\Debug\EntityFramework6.Npgsql.xml
+C:\PruebaBNN\Problema2\Base\bin\Debug\Npgsql.xml
+C:\PruebaBNN\Problema2\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache
+C:\PruebaBNN\Problema2\Base\obj\Debug\Base.dll
+C:\PruebaBNN\Problema2\Base\obj\Debug\Base.pdb
