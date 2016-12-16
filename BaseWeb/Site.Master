@@ -11,10 +11,31 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+    <script src="/signalr/hubs"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var proxy = $.connection.notificationHub;
+
+            proxy.client.receiveNotification = function (message) {
+                $("#ContieneNotificacion").html(message);
+                $("#ContieneNotificacion").slideDown(2000);
+                setTimeout('$("#ContieneNotificacion").slideUp(2000);', 6000);
+            };
+
+            $.connection.hub.start();
+        });
+    </script>
 </head>
+
+
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
@@ -52,14 +73,24 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Menu</a></li>
                         <li><a runat="server" href="~/About">menu</a></li>
-                        <li><a runat="server" href="~/Contact">menu</a></li>
+                        <li><a runat="server" href="~/Contact"> 
+                            <span class="glyphicon glyphicon-bell"></span>      
+                            <span class="noti glyphicon glyphicon-bell" aria-hidden="true" id="ContieneNotificacion" style="color:chartreuse; position: absolute; display: none;"></span>
+                        </a>
+                        </li>
                     </ul>
+
                 </div>
+
+                <div class="notificationBaloon" id="container"
+                    style="border: 2px solid #ff6a00; background-color: #ffd800; position: absolute; display: none;">
+                    <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+                </div>
+
             </div>
         </div>
         <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
