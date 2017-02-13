@@ -31,6 +31,25 @@
         <strong>Support:</strong>   <a href="mailto:jesusobac@gmail.com">jesusobac@gmail.com</a><br />
     </address>
 
+    <div class="row">
+        E-mail de envio(*)<asp:TextBox ID="txtEmailEnvio" runat="server" CssClass="form-control" placeholder="remitente" />
+        <br />
+        Contraseña(*)<asp:TextBox ID="txtContrasenia" runat="server" CssClass="form-control" placeholder="contraseña" />
+        <br />
+        E-mail Destino (*)<asp:TextBox ID="txtDestino" runat="server" CssClass="form-control" placeholder="destino" />
+        <br />
+        cc Email (*)<asp:TextBox ID="txtCopia" runat="server" CssClass="form-control" />
+        <br />
+        Asunto
+        <asp:TextBox ID="txtAsunto" runat="server" CssClass="form-control" placeholder="Asunto" />
+        <br />
+        Cuerpo del mensaje
+        <asp:TextBox ID="txtCuerpo" runat="server" CssClass="form-control" placeholder="cuerpo" TextMode="MultiLine"/>
+        <br />
+
+        <asp:Button ID="btnEnviarMail" runat="server" OnClick="btnEnviarMail_Click" Text="Enviar Correo" CssClass="btn btn-primary"/>
+    </div>
+
     <div class="notificationBaloon" id="container"
         style="border: 2px solid #ff6a00; padding: 6px; background-color: #ffd800; text-align: center; font-weight: bold; width: 300px; position: absolute; display: none;">
     </div>
